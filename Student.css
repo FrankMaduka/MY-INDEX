@@ -1,0 +1,136 @@
+body{
+    background-color: rgba(61, 59, 59, 0.189);
+
+    
+}
+
+
+nav{
+    color: gray;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1000px 1fr;
+    padding-left: 30px;
+    position: sticky;
+    top: 0;
+}
+.rigth{
+width: 20rem;
+    background: white;
+    line-height: 80px;
+    color: gray;
+    padding-left: 30px;
+}
+
+
+.container{
+
+display: grid;
+grid-template-columns: 400px 1fr;
+
+
+}
+.Search{
+    background-color: rgb(8, 8, 85);
+    color: white;
+padding-right: 2px;
+    width: 60px;
+   
+}
+
+
+.left .lefttop{
+    justify-content: center;
+    align-items: center;
+height: 15vh;
+display: grid;
+grid-template-columns: 220px 0px;
+background-color:white;
+
+
+
+
+
+}
+
+.lefttop input{
+    background-color: rgb(222, 210, 210);
+    padding-left: 0px;
+    
+    height: 2.7rem;
+}
+.icon{
+    display: grid;
+    grid-template-columns: 250px 150px;
+    padding-left: 2px;
+}
+ .rigth input{
+    width: 250px;
+    height: 3rem;
+    background-color: rgb(228, 223, 223);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+ .top{
+    background-color: rgb(4, 4, 104);
+  width: 290px ;
+  padding-top: 30px;
+    margin-left: 0px;
+    height: 3rem;
+    color: white;
+    padding-left: 80px;
+    
+    margin-bottom: 0px;
+    
+}
+.rigth button{
+    background-color:rgb(26, 60, 145) ;
+     width: 255px ;
+  margin-left: 25px;
+   align-items: center;
+    height: 3rem;
+    color: white;
+    padding-left: 2px;
+    border: none;
+    margin-top: 2px;
+}
+.rigth button:hover{
+border: 2px solid rgb(187, 189, 240);
+background-color: rgb(12, 12, 150);
+
+
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+
+}
+th{
+    height: 30px;
+    background-color: rgb(186, 195, 195);
+   
+}
+th,td{
+    padding: 15px;
+    text-align: left;
+}
+.buttu{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    margin-left: 6rem;
+    padding-top: 50px;
+    margin-right:5rem ;
+    
+    
+}
+.buttu button{
+    width: 200px;
+    height: 10vh;
+    
+}
+.buttu button:hover{
+    background-color: gray;
+    border: 2px solid rgb(205, 180, 180);
+}
